@@ -1,13 +1,14 @@
 import saaj4 from './saaj4.JPG';
 import './App.css';
+import {InputPage} from "./InputPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={saaj4} className="App-logo" alt="saaj4" />
+    <div >
 
-      </header>
+       <InputPage/>
+
+
     </div>
   );
 }
