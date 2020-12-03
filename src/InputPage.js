@@ -69,6 +69,10 @@ export class InputPage extends React.Component{
                             <Button variant="primary" type="button" onClick={()=>alert("You reccomended size is : "+calculateSize(this.values))}>
                                 Submit
                             </Button>
+
+                            <Button variant="secondary" type="button" onClick={()=>window.close()}>
+                                Close
+                            </Button>
                         </Form>
                     </div>
                 </Col>
