@@ -1,9 +1,9 @@
 
 export function calculateSize(values){
     let size = "Free Size"
-    if( values.bust < 35.5 && values.waist < 31 && values.hips < 35){
+    if( values.bust < 35.5 && values.waist < 32 && values.hips < 39){
         size =  "XS";
-    }else  if( values.bust < 37.5 && values.waist < 33 && values.hips < 41){
+    }else  if( values.bust < 37.5 && values.waist < 34 && values.hips < 41){
         size =  "S";
     }
     else  if( values.bust < 39.5 && values.waist < 36 && values.hips < 43){
